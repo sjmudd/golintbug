@@ -13,3 +13,5 @@ main.go:10:2: exported const GoLintBugConst1 should have comment (or a comment o
 The comment is correctly provided on the same line as the constant definition.
 
 `golint` installed by `go get -u golang.org/x/lint/golint` so up to date as of 2021-01-03.
+
+See: https://github.com/golang/lint/issues/502
